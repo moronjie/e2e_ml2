@@ -1,1 +1,2 @@
-# e2e_ml2
+# End to end machine learnig project 
+
