@@ -1,6 +1,6 @@
 import sys
 import os
-from logger import logger
+# from logger import logger
 
 def get_exception_message(e):
     exc_type, exc_obj, exc_tb = sys.exc_info()
