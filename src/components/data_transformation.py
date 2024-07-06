@@ -94,7 +94,7 @@ class DataTransformation:
 
             save_object(
 
-                file_path=self.data_transformation_config.preprocessor_obj_file_path,
+                file_path=self.data_transformation_config.preprocessor_pikle_path,
                 obj=preprocessing_obj
 
             )
@@ -102,7 +102,7 @@ class DataTransformation:
             return (
                 train_arr,
                 test_arr,
-                self.data_transformation_config.preprocessor_obj_file_path,
+                self.data_transformation_config.preprocessor_pikle_path,
             )
         except Exception as e:
             CustomException(e)
